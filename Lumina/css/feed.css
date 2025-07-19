@@ -460,18 +460,6 @@ header {
 	}
 }
 
-@media (min-width: 400px) and (max-height: 920px) { 
-
-	.scrollable-cards .card {
-		min-height: 450px
-	}
-
-	.scrollable-cards {
-		height: 540px
-	}
-
-}
-
 @media (min-width: 425px) and (max-width: 767px) { 
 
 	.navbar-collapse {
