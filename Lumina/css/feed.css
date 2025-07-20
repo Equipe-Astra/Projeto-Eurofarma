@@ -194,15 +194,16 @@ header {
 }
 
 .modal-content {
-	 border-top: 8px solid transparent !important;
-	 border-left: 8px solid transparent !important; 
+	border-top: 8px solid transparent !important;
+	border-left: 8px solid transparent !important; 
     background: 
         linear-gradient(#fff 0 0) padding-box, 
         var(--color-gradient) border-box !important;  
 }
 
-.modal-body {
-  max-height: 60vh; 
+#meuModal .modal-body {
+  max-height: 60vh;
+  overflow-y: auto;
 }
 
 .modal-img {
@@ -211,6 +212,10 @@ header {
 
 #modalComentario .modal-body {
   max-height: 80vh; 
+}
+
+#meuModal .modal-footer {
+	padding-top: 0rem;
 }
 
 .scrollable-modal {
@@ -618,7 +623,7 @@ header {
     	height: 2rem !important;
 	}
 
-	.modal-content {
+	#meuModal .modal-content {
 		height: 80vh !important;
 	}
 }
